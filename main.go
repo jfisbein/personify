@@ -12,7 +12,7 @@ import (
 	"github.com/disintegration/imaging"
 )
 
-var haarCascade = flag.String("haar", os.Getenv("GOPATH")+="/src/github.com/rasmi/personify/haarcascade_frontalface_alt.xml", "The location of the Haar Cascade XML configuration to be provided to OpenCV.")
+var haarCascade = flag.String("haar", os.Getenv("GOPATH")+"/src/github.com/rasmi/personify/haarcascade_frontalface_alt.xml", "The location of the Haar Cascade XML configuration to be provided to OpenCV.")
 var facesDir = flag.String("faces", "", "The directory to search for faces.")
 
 func main() {
