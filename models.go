@@ -1,15 +1,12 @@
 package main
 
 import (
-	"bytes"
 	"image"
 	"io/ioutil"
-	"log"
 	"math/rand"
 	"os"
 	"path"
 	"path/filepath"
-	"sort"
 	"time"
 
 	"github.com/disintegration/imaging"
